@@ -1,0 +1,70 @@
+
+
+
+body {
+     margin: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(168, 156, 240);
+     max-width: 70%;
+}
+
+.heading {
+
+color: rgb(67, 24, 223);
+font-size: xx-large;
+text-align: center;
+}
+.main {
+    max-width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: auto;
+    padding: 10;
+}
+
+.personal {
+    color: rgb(72, 12, 184);
+    background-color: rgb(241, 207, 158);
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+   
+ input[type="file"]  {
+
+    font-size: 16px;
+    padding: 10px;
+    width: 250;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color:  rgb(241, 207, 158);
+ }
+
+ input [type="file"]::file.selector.button{
+    background-color:rgb(241, 207, 158);
+    cursor: pointer;
+    font-size: large;
+    border-radius: 10px;   
+    border-color: aqua;
+ }
+
+ form {
+    margin-bottom: 40px;
+ }
+
+ input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-color: blue;
+    border-width: 3px;
+    background-color: rgb(241, 207, 158);
+
+}
+.inputname  {
+    font-size: large;
+
+}

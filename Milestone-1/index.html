@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body >
+    <center>
+    <div class="heading"> <b>Milestone: 1 Static Resume Builder </b></div>
+    <br>
+    <div class="main  ">
+        <form id="resumeform">
+            <div class="personal"> <b>Personal info  </b></div> <br>
+            <label for="picture" class="inputname" id="upload "><b>Upload Picture </b></label>
+            
+            <input type="file" name="picture" id="picture" class="forpic" accept="image">
+            <br><br>
+            <label for="name" class="inputname "><b>Name: </b></label>
+            <input type="text" id="name" required> <br><br>
+            <label for="email" class="inputname "  > <b>Email: </b> </label>
+            <input type="email" id="email" required><br> <br> 
+
+            <label for="mobile" class="inputname"> <b>Mobile no:</b> </label>
+            <input type="tel" id="mob" required> <br> <br>
+            <label for="address" class="inputname"><b>Address: </b></label>
+            <input type="text " id="address " required>
+            <br>
+            <br>
+            <div class="personal"> <b>skills </b></div>  <br>
+            <label for="skills" class="inputname" > <b>Skills: </b> </label>
+            <input type="text" id="skills" required>
+            <br>
+            <br>
+            <div class="personal"> <b>Education </b> </div>
+            <label for="education " class="inputname"><b>Education:</b></label>
+            <textarea name="education" id="education" required></textarea>
+            <br>
+            <br>
+            <div class="personal"><b>Experience</b></div> 
+            <label for="experience" class="inputname"><b>Experience:</b></label>
+            <textarea name="experience " id="experience " required></textarea>
+            <br><br>
+
+            <input type="submit" class="inputname"  value= "Generate Resume">
+
+        </form>
+    </div>
+</center>
+</body>
+</html>
