@@ -1,0 +1,74 @@
+/* style.css */
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   padding: 10px;
+}
+
+h1 {
+   text-align: center;
+   color: #333;
+}
+
+form {
+   max-width: 600px;
+   margin: auto;
+   background-color: #e4d7f5;
+}
+
+fieldset {
+   margin-bottom: 20px;
+   padding: 15px;
+   border: 15px solid #7f0eca;
+   border-radius: 5px;
+}
+
+legend {
+   font-weight: bold;
+   font-size: 1.1em;
+   border: 1px solid #7f0eca;
+
+}
+
+label {
+   display: block;
+   margin: 5px 0;
+}
+
+input, textarea {
+   width: 100%;
+   padding: 8px;
+   margin: 5px 0;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+button {
+   padding: 10px 15px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+button:hover {
+   background-color: #45a049;
+}
+
+#resumedisplay {
+
+   margin-top: 20px;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: #38444d4f;
+   margin-left: 250px;
+   width: 60%;
+}
+
+#resumedisplay h2 {
+   text-align: center;
+}
